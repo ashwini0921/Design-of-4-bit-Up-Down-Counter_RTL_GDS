@@ -62,7 +62,11 @@ module Testbench();
     end
 endmodule
 ```
-
+```Simulate the counter using Icarus Verilog and view waveforms in GTKWave
 iverilog -o sim.out RTL/Mycounter.v Testbench/Mycounter_tb.v
 vvp sim.out
 gtkwave count.vcd
+```
+<img width="1291" height="418" alt="Screenshot from 2025-08-30 11-35-47" src="https://github.com/user-attachments/assets/b8c37cb3-0779-48a7-9447-8c969b35b4b3" />
+
+

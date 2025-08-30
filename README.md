@@ -70,3 +70,17 @@ gtkwave count.vcd
 <img width="1291" height="418" alt="Screenshot from 2025-08-30 11-35-47" src="https://github.com/user-attachments/assets/b8c37cb3-0779-48a7-9447-8c969b35b4b3" />
 
 
+To ensure the counter works correctly under all scenarios, code coverage analysis was performed using simulation. The testbench stimulates the Mycounter module across different clock cycles and reset conditions, verifying that:
+
+All branches of the always block (reset and counting) are exercised.
+
+All outputs are observed and recorded in the VCD file.
+
+The clock and reset sequences trigger every relevant state transition.
+<img width="593" height="315" alt="Screenshot<img width="1113" height="579" alt="Screenshot from 2025-08-30 12-19-10" src="https://github.com/user-attachments/assets/4e36394a-faca-4d6c-bde9-310aff141852" /><img width="1096" height="426" alt="Screenshot from 2025-08-30 12-19-22" src="https://github.com/user-attachments/assets/d82b5e2c-1901-4776-809f-e2794044b7fb" />
+<img width="1111" height="456" alt="Screenshot from 2025-08-30 12-19-33" src="https://github.com/user-attachments/assets/48c92ac4-9450-4a83-aee9-de54d9938feb" />
+
+ from 2025-08-30 12-12-29" src="https://github.com/user-attachments/assets/d03374b5-0937-43c2-82bd-76490813fcbf" />
+
+ 
+
